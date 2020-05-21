@@ -1,39 +1,147 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Art Medical
 
-Welcome USER_NAME,
+* This is a web application written primarily in flask, this project is purely for educational purposes.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# CONTENTS
+* UX
+  * Owner Goals
+  * User Goals
+  * User Stories
+  * Strategy
+  * structure
+* UI
+* Features
+* Scope
+* Technologies Used
+* Sites Sourced from
+* Testing
+* Bugs
+* Deployment
+* Credits
 
-## Gitpod Reminders
+# **UX**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Owner Goals
 
-`python3 -m http.server`
+#### For the owner the goals are:
 
-A blue button should appear to click: *Make Public*,
+* To communicate a feeling of cleanliness and efficiency
+* To offer a hassle free service in order to:
+  * Increase profitablity
+  * Increase Brand awareness
+* To supply the user with relevant information in order to:
+  * Encourage the user to make a Purchase
+  * Encourage the user to feel comfortable and confident when doing business with the owner
 
-Another blue button should appear to click: *Open Browser*.
+# User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### For the user the goals are:
 
-A blue button should appear to click: *Make Public*,
+# User Stories
 
-Another blue button should appear to click: *Open Browser*.
+1. "As a **medical supplies purchaser** 
+1. "As a **doctor** 
+1. "As a **medical equipment manufacturer** 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+# My Strategy
 
-## Updates Since The Instructional Video
+# Structure
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+# User Interface
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Fonts I chose are:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Scope
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+# Technologies
 
-Happy coding!
+* <a href=""></a>
+
+# Sources
+
+* <a href=""></a>
+
+
+# Testing
+
+* All HTML validated with <a href="https://validator.w3.org/">w3 validator</a>
+* All CSS validated with <a href="https://jigsaw.w3.org/css-validator/">w3 css validator</a>
+
+## This site has been tested manually
+
+# Bugs
+
+# Deployment
+
+* This project and all project files are hosted on GitHub via my GitHub repository at <a href="" target="_blank"></a>
+* I coded the project using GitPod as my development environment. 
+* To deploy the project 
+   1. I began by adding the files using the command 'git add filename' in the command prompt.
+   2. I then used commits regularly while coding using the command 'git commit -m "commit message here". 
+   3. I then pushed the committed files from the GitPod IDE to the master branch of the main repository on GitHub.
+   4. After pushing the files I went to my repository.
+   5. I clicked on the 'Settings' tab near the top of the page and scrolled down to the 'GitHub Pages' section.
+   6. I selected the Source as the 'Master Branch' as all the site content and files are stored in and built from the 'Master Branch'.
+   7. GitHub provided me with a direct link to the deployed site.
+   8. You can view the deployed site here: <a href="" target="_blank"></a>
+
+## There are no differences between the currently deployed site and the development version at this time.
+
+## To run the project locally
+
+To clone this project from GitHub:
+
+* Under the repository name, click "Clone or download".
+  1. In the Clone with HTTPs section, copy the clone URL for the repository ( For this repository:  ).
+  2. In your local IDE open Git Bash.
+  3. Change the current working directory to the location where you want the cloned directory to be made.
+  4. Type git clone, and then paste the URL you copied in Step 3.
+  5. The command should look like this:  git clone 
+  6. Press enter and your local clone will be created and the response should be something like this:
+> * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> * Cloning into `Spoon-Knife`...
+> * remote: Counting objects: 10, done.
+> * remote: Compressing objects: 100% (8/8), done.
+> * remove: Total 10 (delta 1), reused 10 (delta 1)
+> * Unpacking objects: 100% (10/10), done.
+* For further reading and troubleshooting on cloning a repository from GitHub you can go <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank">here</a>.
+
+# To preview in your browser
+
+If you are using gitpod as your IDE:
+The project runs only from the Master branch the main directory of which is:  /workspace/everyday-gourmet
+When in the main directory enter the following into the command prompt
+1. python3 -m http.server
+2. This will run the contents of the directory on a local web server, on port 8000.
+3. If you are working in Gitpod this will give you an option to 'open browser' which will open the default 'index.html'
+4. If you want to stop the local server from running simply press crtl + C
+
+
+# Credits
+
+**Code**
+
+## Content
+
+* Text on the site was written by myself 
+
+## Media
+
+* All images sourced from 
+
+## Acknowledgements
+
+## Thank you SO SO MUCH to my mentor **@rheyannmagcalas_mentor** for all the help and great tips she gave me while I was developing and then working on this project and for helping me to finally solve the issue with my API GET script... I agonized for 5 days unable to get it to work and in the end it was such a simple fix and I was overcomplicating my code.
+## Thank you to h4xnoodle for your advice and consistently reminding me not to overcomplicate things. 
+
+# FAIR-USE COPYRIGHT DISCLAIMER
+
+* Copyright Disclaimer Under Section 107 of the Copyright Act 1976, 
+ * allowance is made for "fair use" for purposes such as criticism, commenting, news reporting, teaching, scholarship, and research. 
+ * Fair use is a use permitted by copyright statute that might otherwise be infringing. 
+ * Non-profit, educational or personal use tips the balance in favour of fair use.
+
+* This is for educational use.
