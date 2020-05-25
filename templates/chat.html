@@ -1,4 +1,4 @@
-
+{% extends 'base.html' %} {% block content %}
 <h3>Welcome {{ username }}</h3>
 <form method="POST">
   <textarea cols="50" rows="4" name="message" id="message"></textarea>
@@ -24,4 +24,4 @@
     }, 5000)
     }
 </script>-->
-
+{% endblock %}
