@@ -1,0 +1,27 @@
+
+<h3>Welcome {{ username }}</h3>
+<form method="POST">
+  <textarea cols="50" rows="4" name="message" id="message"></textarea>
+  <br />
+  <button>Send Message</button>
+</form>
+{% for message in chat_messages %}
+<p>({{ message.timestamp }}) {{ message.from }}: {{ message.message }}</p>
+{% endfor %}
+<!-- <script>
+    let textbox = document.getElementById("message")
+
+    let timer = setTimeout (function(){
+        location.reload();
+    }, 5000)
+
+    textbox.onkeydown = function(e) {
+        
+        clearTimeOut(timer)
+
+        timer = setTimeout (function(){
+        location.reload();
+    }, 5000)
+    }
+</script>-->
+
